@@ -4,7 +4,7 @@ ArrayList<Circle> myCircles = new ArrayList<Circle>();
 float minR, maxR; //create a global value for minimum and maximum radius
 float noiseScale = 0.5;
 void setup(){
-    size(1800,1200);
+    size(1200,800);
     background(255);
     fill(0);
     //noFill();

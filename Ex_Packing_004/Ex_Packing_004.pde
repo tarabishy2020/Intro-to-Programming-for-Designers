@@ -4,7 +4,7 @@ Circle testCircle;
 Circle testCircleMouse;
 
 void setup(){
-    size(1800,1200);
+    size(1200,800);
     background(255);
     fill(0);
     //noStroke();

@@ -6,7 +6,7 @@ float noiseScale = 5; //control global speed range for initial velocity
 PVector gravity = new PVector(0.0,1);
 
 void setup(){
-    size(1800,1200);
+    size(1200,800);
     background(255);
     fill(0);
     //noFill();

@@ -3,7 +3,7 @@
 Circle myCircle;
 
 void setup(){
-    size(1800,1200);
+    size(1200,800);
     ellipseMode(RADIUS);
     background(255);
     fill(0);

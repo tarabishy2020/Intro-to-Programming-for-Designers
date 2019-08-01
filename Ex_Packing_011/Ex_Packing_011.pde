@@ -1,15 +1,15 @@
-// Lets try and include some motion
+// Sample an image to control the size of the circles
 
 ArrayList<Circle> myCircles = new ArrayList<Circle>();
 float minR, maxR; //create a global value for minimum and maximum radius
 float noiseScale = 0.5;
-String imgName = "2.jpg";
+String imgName = "1.jpg";
 color[] colors;
 
-int scrWidth = 1800;
-int scrHeight = 1506;
+int scrWidth = 1200;
+int scrHeight = 800;
 void setup(){
-    size(1800,1506);
+    size(1200,800);
     background(255);
     fill(0);
     //noFill();
