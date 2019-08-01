@@ -1,5 +1,5 @@
 void setup(){
-    size(1800,1200);
+    size(1200,800);
     // by default it takes as an input diameter
     ellipseMode(RADIUS);
     // setup the scene, we placed those here because we don't really want

@@ -5,11 +5,11 @@ int counter =0;
 // This function runs once when you start running your code
 // used usually to initialize things, setting the stage for what to come later
 void setup(){
-    size(1800,1200);
+    size(1200,800);
 }
 
 void draw(){
-    background(0);
+    background(255);
     // Option 1
     //-----------------
     // noStroke();
@@ -25,7 +25,7 @@ void draw(){
     // Option 3
     // Create a function to do the same thing - but now with any size and color
     //-----------------
-    drawCircle(200, 100, color(255,0,0));
+    drawCircle(200, 200, color(255,0,0));
 
     // Option 4
     // how about adding some movement
@@ -35,18 +35,21 @@ void draw(){
     // other things you can use
     // variableName *= 2; variableName /= 2; variableName -= 2; variableName += 2;
     //-----------------
-    movCircle(200, 100, color(255,0,0),counter);
+    noStroke();
+    movCircle(200, 200, color(255,0,0),counter);
     counter++;
 
 }
 
 void drawCircle(){
     fill(255);
+    noStroke();
     ellipse(width/2,height/2,100,100);
 }
 
 void drawCircle(int sizeX, int sizeY, color c){
     fill(c);
+    noStroke();
     ellipse(width/2,height/2,sizeX,sizeY);
 }
 
