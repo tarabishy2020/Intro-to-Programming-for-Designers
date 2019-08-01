@@ -1,0 +1,1 @@
+Exercise files used in the Introduction to Programming for Designers course that I ran back in 2018.
